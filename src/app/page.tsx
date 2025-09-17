@@ -1,7 +1,7 @@
 
 export default function Home() {
   return (
-    <div className="container mx-auto px-32 mt-24">
+    <div className="container mx-auto px-32 pt-24">
       <h1>Lorem ipsum </h1>
       <p>dolor sit amet consectetur adipisicing elit. Mollitia repellendus veritatis aut voluptate temporibus incidunt placeat nostrum. Vero, ratione. Illo adipisci placeat, aliquid aut doloremque maiores accusantium vero fugit fuga!</p>
       <p>dolor sit amet consectetur adipisicing elit. Mollitia repellendus veritatis aut voluptate temporibus incidunt placeat nostrum. Vero, ratione. Illo adipisci placeat, aliquid aut doloremque maiores accusantium vero fugit fuga!</p>
