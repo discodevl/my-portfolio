@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Providers } from "./components/Providers";
 import HeaderSite from "./components/HeaderSite";
+import BgDark from "@/components/bg-dark";
+import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,11 +16,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`antialiased`}>
         <Providers>
-          <HeaderSite />
-          {children}
+          <BgDark>
+            <HeaderSite />
+            {children}
+            <Footer />
+          </BgDark>
         </Providers>
       </body>
     </html>
