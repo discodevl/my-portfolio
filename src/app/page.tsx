@@ -1,4 +1,5 @@
 import Avatar from "@/components/avatar";
+import { Overview } from "@/components/overview";
 import ProfileInfo from "@/components/profile-info";
 import { USER } from "@/resources/data";
 
@@ -12,7 +13,9 @@ export default function Home() {
           sentencesArr={USER.flipSentences}
         />
       </div>
-      <div></div>
+      <div>
+        <Overview />
+      </div>
       <p>
         dolor sit amet consectetur adipisicing elit. Mollitia repellendus
         veritatis aut voluptate temporibus incidunt placeat nostrum. Vero,
