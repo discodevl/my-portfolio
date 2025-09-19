@@ -13,7 +13,7 @@ export default function Home() {
           sentencesArr={USER.flipSentences}
         />
       </div>
-      <div>
+      <div className="mt-4">
         <Overview />
       </div>
       <p>
