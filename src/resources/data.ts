@@ -9,9 +9,9 @@ export const USER: User = {
   pronouns: "he/him",
   bio: "todo",
   flipSentences: [
-    "todo1",
-    "todo2",
-    "todo3",
+    "Languages: Italian, Portuguese, English",
+    "Frontend Developer",
+    "joga na freuqencia do radio",
   ],
   address: "Ouagadougou, Burkina Faso",
   phoneNumber: "OTk5OTk5OTk5OQ==", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
