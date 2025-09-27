@@ -1,6 +1,10 @@
+import About from "@/components/about";
 import Avatar from "@/components/avatar";
+import { Experiences } from "@/components/experiences";
 import { Overview } from "@/components/overview";
 import ProfileInfo from "@/components/profile-info";
+import { SocialLinks } from "@/components/social";
+import TeckStack from "@/components/tech-stack";
 import { USER } from "@/resources/data";
 
 export default function Home() {
@@ -15,6 +19,10 @@ export default function Home() {
       </div>
       <div className="mt-4">
         <Overview />
+        <SocialLinks />
+        <About />
+        <TeckStack />
+        <Experiences />
       </div>
       <p>
         dolor sit amet consectetur adipisicing elit. Mollitia repellendus
