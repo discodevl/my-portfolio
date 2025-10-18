@@ -1,7 +1,6 @@
 import { Experience } from "./types";
 
 export const EXPERIENCES: Experience[] = [
-
   {
     id: "spaarkly",
     companyName: "Spaarkly",
@@ -11,85 +10,77 @@ export const EXPERIENCES: Experience[] = [
         id: "exp1",
         title: "Web Developer",
         employmentPeriod: {
-          start: "04.2022",
-          end: "07.2023",
+          start: "04/2022",
+          end: "07/2023",
         },
         employmentType: "Full-time",
         icon: "code",
-        description: `- todo`,
+        description: `Development of Single Page Applications and components to handle 3d models using argumented reality libraries such as model-viewer from google`,
         skills: [
           "ReactJS",
-          "HTML",
-          "CSS",
           "Redux Toolkit",
           "Firebase",
-          "UI/UX Design",
           "Extension",
-          "Design System",
+          "Bootstrap",
           "Figma",
         ],
-        isExpanded: true,
       },
     ],
-    isCurrentEmployer: true,
   },
   {
     id: "dst",
     companyName: "Design System Strategies",
-    companyLogo: "https://assets.chanhdai.com/images/companies/tungtung.webp",
+    companyLogo: "https://assets.chanhdai.com/images/companies/quaric.svg",
+    isCurrentEmployer: true,
     positions: [
       {
         id: "exp2",
-        title: "Web Developer -acc",
+        title: "Web Developer - Snam",
         employmentPeriod: {
-          start: "2023",
-          end: "2023",
+          start: "11/2022",
+          end: "03/2023",
         },
         employmentType: "Full-time",
-        description: `- todo lorem`,
+        description: `Developed and maintained a dashboard platform for Snam, designed for real-time data visualization and analysis`,
+        icon: "code",
+        skills: ["React", "Redux", "Agile", "Teamwork", "API REST"],
+      },
+      {
+        id: "exp3",
+        title: "Web Developer Mobile - BIP",
+        employmentPeriod: {
+          start: "04/2023",
+          end: "07/2023",
+        },
+        employmentType: "Full-time",
+        description: `Developed a mobile section for Herno’s e-commerce platform, Integrated UX/UI improvements to enhance the mobile shopping experience.`,
         icon: "code",
         skills: [
           "React",
           "Redux",
-          "Storybook",
-          "Kubernetes",
+          "API REST",
           "Agile",
-          "Teamwork",
-          "Research",
+          "Responsive Development",
         ],
       },
       {
-        id: "13bd34c3-db84-4fad-8132-a6c89a42957e",
-        title: "Mobile Developer",
+        id: "exp3",
+        title: "Web Developer - Ministero dei Trasporti",
         employmentPeriod: {
-          start: "2019",
-          end: "2020",
+          start: "08/2023",
+          end: "present"
         },
         employmentType: "Full-time",
-        description: `- todo lorem`,
+        description: `Developed and maintained digital platforms for the Ministero dei trasporti, including:
+        - Catalogo Prodotti: Centralized management of offered services.
+        - RUI (Registro Unico Ispettori): Registration and monitoring system.
+        - Accreditamento: Platform for certifying industry operators.
+        - TPL: todo
+        - Nuovo Portale del Automobilista: A new and modern version of PDA platform
+         Worked with public institutions to ensure regulatory compliance and data security.
+        `,
         icon: "code",
-        skills: [
-          "React Native",
-          "Redux",
-          "MoMo Payment API",
-          "App Store",
-          "Google Play Store",
-          "App Center",
-          "Agile",
-          "Teamwork",
-          "Research",
-        ],
-      },
-      {
-        id: "73151add-7adf-4035-a237-b5803ceb5478",
-        title: "Web Developer",
-        employmentPeriod: {
-          start: "2018",
-        },
-        employmentType: "Full-time",
-        description: ``,
-        icon: "code",
-        skills: ["UI/UX Design", "Sketch"],
+        skills: ["React", "NextJS", "Angular", "REST API", "GraphQL", "Tailwind", "Bootstrap", "Kubernetes", "CI/CD pipelines", "Microfronted", ],
       },
     ],
   },
@@ -99,26 +90,22 @@ export const EXPERIENCES: Experience[] = [
     positions: [
       {
         id: "uni1",
-        title: "University of Science — VNUHCM",
+        title: "Universita degli Studi della Basilicata — UNIBAS",
         employmentPeriod: {
-          start: "08.2018",
-          end: "2026",
+          start: "08/2019",
+          end: "2022",
         },
         icon: "education",
         description: `- todo`,
         skills: [
           "C++",
           "Java",
-          "Python",
           "Data Structures",
           "Algorithms",
           "Advanced Databases",
           "Systems Design",
           "Distributed Systems",
           "Software Engineering",
-          "Self-learning",
-          "Teamwork",
-          "Presentation",
         ],
       },
     ],
